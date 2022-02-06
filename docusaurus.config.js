@@ -6,14 +6,14 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 const config = {
   title: 'Jeremy Bruce Adams',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
+  tagline: 'Senior full-stack software engineer, specializing in genomics and life science',
+  url: 'https://jeremybruceadams.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  favicon: 'img/signature.ico',
+  organizationName: 'jb-adams', // Usually your GitHub org/user name.
+  projectName: 'jeremybruceadams.io', // Usually your repo name.
 
   presets: [
     [
@@ -44,14 +44,15 @@ const config = {
       navbar: {
         title: 'Jeremy',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'Jeremy',
+          src: 'img/signature.png',
+          srcDark: 'img/signature-white.png'
         },
         items: [
           { position: 'left', label: 'Resume', to: "/resume" },
-          { position: 'left', label: 'Projects', to: '/projects' },
+          // { position: 'left', label: 'Projects', to: '/projects' },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/jb-adams',
             label: 'GitHub',
             position: 'right',
           },
@@ -70,11 +71,15 @@ const config = {
               {
                 label: 'Github',
                 href: 'https://github.com/jb-adams',
-              }
+              },
+              {
+                label: 'ORCID',
+                href: 'https://orcid.org/0000-0003-1215-8123',
+              },
             ],
           }
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} jeremybruceadams.io`,
       },
       prism: {
         theme: lightCodeTheme,
