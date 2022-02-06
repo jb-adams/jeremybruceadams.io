@@ -1,5 +1,12 @@
 # Resume
 
+## Tech Skills
+
+**Languages:** Java, Python, JavaScript, SQL (PostgreSQL), Bash, R  
+**Libraries/Frameworks:** Spring Boot, Hibernate, Gradle, NodeJS, React, ExpressJS, D3.js  
+**Concepts:** REST API, CI/CD, Infrastructure as Code (CloudFormation), ETL  
+**Tools:** AWS, Git/Github, Jira
+
 ## Work Experience
 
 **Team Lead, Global Alliance for Genomics and Health**  
