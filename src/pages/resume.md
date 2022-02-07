@@ -3,19 +3,28 @@
 ## Tech Skills
 
 **Languages:** Java, Python, JavaScript, SQL (PostgreSQL), Bash, R  
-**Libraries/Frameworks:** Spring Boot, Hibernate, Gradle, NodeJS, React, ExpressJS, D3.js  
+**Libraries/Frameworks/Tools:** Spring Boot, Hibernate, Gradle, NodeJS, React, Material UI, Express, D3.js, OpenAPI, Read the Docs  
 **Concepts:** REST API, CI/CD, Infrastructure as Code (CloudFormation), ETL  
-**Tools:** AWS, Git/Github, Jira
+**Platforms:** AWS, Git/Github, Github Actions, Jira  
+**Bioinformatics:** Docker, Singularity, WDL, Nextflow  
 
 ## Work Experience
 
 **Team Lead, Global Alliance for Genomics and Health**  
-Toronto, ON, Canada&emsp;&emsp;x 2021 - Present
+Toronto, ON, Canada&emsp;&emsp;August 2021 - Present
 
-* Foo
+* Lead development of the GA4GH Starter Kit, a reference implementation suite for API-based authorization, data access, and analysis according to GA4GH standards
+* Deploy Starter Kit at multiple institutes, including the European Bioinformatics Institute (EBI), for novel genomics analyses
+* Lead development of testbed infrastructure, enabling international collaborators to compliance and performance test their APIs to GA4GH standards
 
 **Software Developer, Global Alliance for Genomics and Health**  
-Toronto, ON, Canada&emsp;&emsp;April 2019 - x 2021
+Toronto, ON, Canada&emsp;&emsp;April 2019 - August 2021
+
+* Developed RESTful APIs for dynamic and flexible transfer of genomic alignments (BAM, CRAM), variants (VCF, BCF), and gene expression matrices (Loom) over the web
+* Co-developed the RNAget API specification, which enables researchers to stream slices of large expression matrices based on gene and tissue/cell panels of interest
+* Developed a service registry API to monitor a network of federated genomic services
+* Supervised junior developers in the development of genomic API clients within the Genome Analysis Toolkit (GATK), a widely-used bioinformatics software package
+* Presented project updates to large audiences at international conferences
 
 **Big Data Developer, Solsys Corporation**  
 Toronto, ON, Canada&emsp;&emsp;March 2018 - April 2019
@@ -29,8 +38,8 @@ Toronto, ON, Canada&emsp;&emsp;March 2018 - April 2019
 Toronto, ON, Canada&emsp;&emsp;September 2015 - March 2018
 
 * Processed and analyzed large genomic datasets in a high-performance computing environment
-* Developed tools in Python, R, and Bash to assess sample quality and determine samples that require resequencing
-* Developed data visualization web applications using the Shiny package in R to share QC results with scientific collaborators
+* Developed and executed cancer dataset pipelines for genome alignment, somatic variant discovery, and differential expression analysis on large cohorts
+* Developed visualization tools in Python and R for quality control of patient tumor genome samples
 * Reviewed scientific literature to implement new bioinformatics software into our pipeline
 * Presented research on new technologies with lab group to keep our pipeline updated and optimized
 

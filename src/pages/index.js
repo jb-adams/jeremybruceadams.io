@@ -68,8 +68,13 @@ function Home() {
               <Translate>Top Skills:</Translate>
             </Typography>
             <Typography variant="body1" gutterBottom>
-              Java, Spring Boot, Hibernate, Gradle, Python, PostgreSQL,
-              Node.js, React, Bash, R, Github, AWS, REST API, CI/CD, IaC, ETL
+              Java, Spring Boot, Hibernate, Gradle,
+              Python, PostgreSQL,
+              Node.js, React, Material UI,
+              Bash, R,
+              AWS, Github,
+              REST API, CI/CD, IaC, ETL,
+              Docker, Singularity, WDL, Nextflow
             </Typography>
           </animated.div>
           &nbsp;
